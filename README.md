@@ -1,2 +1,2 @@
 # Computer-Vision-Project
-Computer Vision Project by Roberto Passante (matricola 1897160) and Giorgio De Santis (matricola 1921727)
+Allora se fa cosi, prima dai na botta de cocaina, te bevi 3 ceres, arrivi a o stadio che sei 'n cane, c'hai presente i cani quelli daa Malesia?
