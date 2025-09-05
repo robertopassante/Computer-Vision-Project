@@ -7,8 +7,7 @@ The pipeline has two stages:
 SYNgen_final.ipynb → generates synthetic ortho-panoramic X-ray images from real samples using a GAN and post-processing.
 Segmentation_final.ipynb → trains segmentation models (U-Net and TransUNet) on real data, evaluates them, and tests generalization on the synthetic images produced by stage 1.
 
-1)
-SYNgen_final.ipynb (Synthetic Data Generator)
+1) SYNgen_final.ipynb (Synthetic Data Generator)
 
 Goal: Create a synthetic dataset to reduce the domain gap and augment training data.
 
@@ -20,8 +19,7 @@ Steps:
 
 -Outputs: generated images, saved into a folder for segmentation use.
 
-2)
-Segmentation_final.ipynb (Training & Evaluation)
+2) Segmentation_final.ipynb (Training & Evaluation)
 
 Goal: Train segmentation models on real data and evaluate them on both real and synthetic images.
 
