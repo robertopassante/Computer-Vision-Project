@@ -13,18 +13,25 @@ Goal: Create a synthetic dataset to reduce the domain gap and augment training d
 Steps:
 
 -GAN training/inference: trains two different Pix2Pix models to synthesize and generate dental X-rays images.
+
 -Post-processing: histogram matching and domain adaptation techniques to improve realism.
+
 -Outputs: generated images, saved into a folder for segmentation use.
 
 2)
 Segmentation_final.ipynb (Training & Evaluation)
 Goal: Train segmentation models on real data and evaluate them on both real and synthetic images.
+
 Steps:
 
 -Models: U-Net (MobileNetV2 backbone) and TransUNet.
+
 -Dataset: supports different modes → real, synt, or mix (real + synthetic).
+
 -Training: optimizer (AdamW), scheduler, AMP training.
+
 -Evaluation: mIoU, Dice, per-class scores.
+
 -Outputs: predictions and metrics report in a .txt file
 
 
