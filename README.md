@@ -4,8 +4,8 @@ Dental X-ray Synthetic Generation & Segmentation
 
 The pipeline has two stages:
 
-1) SYNgen_final.ipynb → generates synthetic ortho-panoramic X-ray images from real samples using a GAN and post-processing.
-2) Segmentation_final.ipynb → trains segmentation models (U-Net and TransUNet) on real data, evaluates them, and tests generalization on the synthetic images produced by stage 1.
+1. SYNgen_final.ipynb → generates synthetic ortho-panoramic X-ray images from real samples using a GAN and post-processing.
+2. Segmentation_final.ipynb → trains segmentation models (U-Net and TransUNet) on real data, evaluates them, and tests generalization on the synthetic images produced by stage 1.
 
 
 1) SYNgen_final.ipynb (Synthetic Data Generator)
