@@ -9,7 +9,9 @@ Segmentation_final.ipynb → trains segmentation models (U-Net and TransUNet) on
 
 1)
 SYNgen_final.ipynb (Synthetic Data Generator)
+
 Goal: Create a synthetic dataset to reduce the domain gap and augment training data.
+
 Steps:
 
 -GAN training/inference: trains two different Pix2Pix models to synthesize and generate dental X-rays images.
@@ -20,6 +22,7 @@ Steps:
 
 2)
 Segmentation_final.ipynb (Training & Evaluation)
+
 Goal: Train segmentation models on real data and evaluate them on both real and synthetic images.
 
 Steps:
@@ -33,6 +36,7 @@ Steps:
 -Evaluation: mIoU, Dice, per-class scores.
 
 -Outputs: predictions and metrics report in a .txt file
+
 
 
 Quickstart
@@ -51,14 +55,24 @@ Option B — Segmentation only
 
 Editable Parameters on 'Globals' section of both ipynb files
 
-IMG_SIZE,
-LAMBDA_L1, 
-LAMBDA_PERC,
-DATA_MODE,
-DATA_MODE_VAL,
-SYN_RATIO,
-MIX_STRATEGY,
-MIX_STRATEGY_VAL,
-batch size,
-epochs,
+IMG_SIZE
+
+LAMBDA_L1
+
+LAMBDA_PERC
+
+DATA_MODE
+
+DATA_MODE_VAL
+
+SYN_RATIO
+
+MIX_STRATEGY
+
+MIX_STRATEGY_VAL
+
+batch size
+
+epochs
+
 LR
